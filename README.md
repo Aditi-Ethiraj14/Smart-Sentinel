@@ -45,4 +45,28 @@ pickle
 * Detection & Logging as Graph: The system detects any suspicious activity detected by the model and produces a detailed graph of triggering events.
 * Visualization: Using matplotlib, the suspicious activities are plotted for better understanding and further analysis.
 
+![Screenshot 2025-01-29 183350](https://github.com/user-attachments/assets/643b4d98-6d67-439d-a951-281206f9ada4)
+
+![image](https://github.com/user-attachments/assets/5b45da25-514d-4b83-82ee-7da360464e14)
+
+
+![image](https://github.com/user-attachments/assets/b0135e3c-9ad0-4b67-856d-6f52fd6951f9)
+
+
+*Graph Insights*
+
+Steep Lines: Sudden movements or unusual behavior (potential theft).
+Flat Regions: Minimal activity or normal customer presence.
+Patterns: Detect frequent shoplifting times or model accuracy trends.
+False Positives vs. True Positives: Evaluate detection efficiency.
+
+*Model Workflow*
+
+Data Input: Test video processing.
+Feature Extraction: Analyze customer behavior.
+Suspicion Scoring & Graph Plotting: Visual representation of scores.
+
+*Project by:- TEAM TECH ALCHEMISTS*
+
+
 
