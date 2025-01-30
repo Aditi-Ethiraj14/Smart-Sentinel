@@ -1,12 +1,12 @@
 **Shoplifting Detection System**
 
-*Overview*/n
+*Overview*
 
-This project is focused on detecting shoplifting using computer vision and machine learning techniques. We have developed a custom model for the task, trained using scikit-learn, and built the system to log and visualize suspicious activities over time./n
+This project is focused on detecting shoplifting using computer vision and machine learning techniques. We have developed a custom model for the task, trained using scikit-learn, and built the system to log and visualize suspicious activities over time.
 
 *Key Features*
 
-1. Machine Learning Model: Trained using scikit-learn with datasets containing instances of shoplifting. The model has been fine-tuned to detect suspicious activities accurately./n
+1. Machine Learning Model: Trained using scikit-learn with datasets containing instances of shoplifting. The model has been fine-tuned to detect suspicious activities accurately.
 2. Computer Vision: Utilizing layers such as Conv2D, MaxPooling2D, Flatten, and Dense for efficient image processing.
 Motion Detection: The backend is built around a motion detection system, which integrates with the trained model to detect and log suspicious activity in real time.
 Data Logging & Visualization: Detailed logs and graphs are produced using matplotlib to visualize the detection of suspicious activities over a period of time.
