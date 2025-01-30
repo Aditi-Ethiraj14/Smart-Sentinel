@@ -26,6 +26,8 @@ This project is focused on detecting shoplifting using computer vision and machi
 * Pickle: The model is saved as a .pkl file after training, which is then loaded for real-time detection and plotting.
 
 *Project Structure*
+
+
 ![image](https://github.com/user-attachments/assets/5a80847d-5410-4862-a2ce-cf6ba44d3cab)
 
 
@@ -55,16 +57,16 @@ pickle
 
 *Graph Insights*
 
-Steep Lines: Sudden movements or unusual behavior (potential theft).
-Flat Regions: Minimal activity or normal customer presence.
-Patterns: Detect frequent shoplifting times or model accuracy trends.
-False Positives vs. True Positives: Evaluate detection efficiency.
+* Steep Lines: Sudden movements or unusual behavior (potential theft).
+* Flat Regions: Minimal activity or normal customer presence.
+* Patterns: Detect frequent shoplifting times or model accuracy trends.
+* False Positives vs. True Positives: Evaluate detection efficiency.
 
 *Model Workflow*
 
-Data Input: Test video processing.
-Feature Extraction: Analyze customer behavior.
-Suspicion Scoring & Graph Plotting: Visual representation of scores.
+* Data Input: Test video processing.
+* Feature Extraction: Analyze customer behavior.
+* Suspicion Scoring & Graph Plotting: Visual representation of scores.
 
 *Project by:- TEAM TECH ALCHEMISTS*
 
