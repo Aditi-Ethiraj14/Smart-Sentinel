@@ -1,4 +1,9 @@
-**Shoplifting Detection System**
+***Shoplifting Detection System***~ ***SMART SENTINEL***
+
+![WhatsApp Image 2025-01-26 at 15 01 46_98305f6d](https://github.com/user-attachments/assets/61251a34-60cf-45b2-971e-45efeba77ea4)
+
+**Sneaky Moves? We See You**
+
 
 *Overview*
 
@@ -15,31 +20,29 @@ This project is focused on detecting shoplifting using computer vision and machi
 *Technologies Used*
 
 * Scikit-learn: Used for training the model and making predictions.
-ii) Numpy: For numerical operations and data manipulation.
-iii) ML Layers: Conv2D, MaxPooling2D, Flatten, and Dense layers used in the model architecture.
-iv) Matplotlib: Used for plotting and visualizing triggering suspicious activity over time.
-v) Pickle: The model is saved as a .pkl file after training, which is then loaded for real-time detection and plotting.
+* Numpy: For numerical operations and data manipulation.
+* ML Layers: Conv2D, MaxPooling2D, Flatten, and Dense layers used in the model architecture.
+* Matplotlib: Used for plotting and visualizing triggering suspicious activity over time.
+* Pickle: The model is saved as a .pkl file after training, which is then loaded for real-time detection and plotting.
 
 *Project Structure*
 ![image](https://github.com/user-attachments/assets/5a80847d-5410-4862-a2ce-cf6ba44d3cab)
 
 
-How It Works
-Model Training: The model is trained using scikit-learn with data from the dataset, and fine-tuned to detect shoplifting.
-Motion Detection: When a motion is detected, the trained model processes the image data to check if the activity matches the patterns of shoplifting.
-Detection & Logging: The system logs any suspicious activity detected by the model and produces a detailed graph of triggering events.
-Visualization: Using matplotlib, the suspicious activities are plotted for better understanding and further analysis.
-Getting Started
-Prerequisites
-To run the project, make sure you have the following Python libraries installed:
 
+*Prerequisites*
+
+To run the project, make sure you have the following Python libraries installed:
 scikit-learn
 numpy
 matplotlib
-tensorflow (for Conv2D, MaxPooling2D, etc.)
 pickle
-Install them using pip:
 
-bash
-Copy
-Edit
+*How It Works*
+
+* Model Training: The model is trained using scikit-learn with data from the dataset, and fine-tuned to detect shoplifting.
+* Motion Detection: When a motion is detected, the trained model processes the image data to check if the activity matches the patterns of shoplifting.
+* Detection & Logging as Graph: The system detects any suspicious activity detected by the model and produces a detailed graph of triggering events.
+* Visualization: Using matplotlib, the suspicious activities are plotted for better understanding and further analysis.
+
+
