@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoplifting Detection</title>
+    <style>
+        #video {
+            width: 100%;
+            max-width: 600px;
+            border: 2px solid black;
+        }
+        #status {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Live Shoplifting Detection</h2>
+    <video id="video" autoplay></video>
+    <canvas id="canvas" style="display: none;"></canvas>
+    <p id="status">Detecting...</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
