@@ -14,7 +14,7 @@ This project is focused on detecting shoplifting using computer vision and machi
    
 *Technologies Used*
 
-i) Scikit-learn: Used for training the model and making predictions.
+* Scikit-learn: Used for training the model and making predictions.
 ii) Numpy: For numerical operations and data manipulation.
 iii) ML Layers: Conv2D, MaxPooling2D, Flatten, and Dense layers used in the model architecture.
 iv) Matplotlib: Used for plotting and visualizing triggering suspicious activity over time.
